@@ -1,0 +1,16 @@
+# Spring properties
+# This is the with which the ms will be registered in Eureka
+spring:
+  application:
+    name: CustomerMS
+
+
+#Eureka server details here for registering itself
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4567/eureka/
+
+#Tomcat port no
+server:
+  port: 4570
